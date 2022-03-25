@@ -20,25 +20,18 @@ public class Java1DArrayPart2 {
                 game[j]= input.nextInt();
             }
 
-            String result = "YES";
+            String result = "YES";}}}
 
+/*
+            for (int x = 0; x < game.length;) {
 
-            for (int x = 0, y=-1; x < game.length; x++,y++) {
-
-                if(leap>0) {
-
-
-                    if (x+1< game.length && game[x] == 0 && game[x+1] == 1) {
-                        leap--;
-                    }
-
-                    if (game[x] == 1) {
-                        leap--;
-                    }
-
-                    if (y>=0 && game[x] == 0 && game[y] == 1) {
-                    leap--;
-                    }
+                if(game[x+1]==0) {
+                    x++;
+                    }else if(game[x+leap]==0){
+                    x+=leap;
+                }else if ( game[x-1]==0 && x-1>=0 ){
+                    while(game[x-1]==0 && x-1>=0){x--;}
+                }
 
 
 
@@ -54,7 +47,9 @@ public class Java1DArrayPart2 {
 
     }
 
-}
+ */
+
+
 
 /*
 Sample Input
